@@ -6,8 +6,12 @@ int factorial(int n) {
 }
 
 int main(void) {
-  for(int i = 1; i < 11; i++) {
+  int i = 1;
+  
+  while(i < 11) {
     printf("%d\n", factorial(i));
+    
+    i++;
   }
   
   return 0;
